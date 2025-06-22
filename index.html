@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>赞助页面</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('background.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6 text-white">
+
+  <!-- 内容区域（弱遮罩） -->
+  <div class="bg-black/40 p-8 rounded-xl w-full max-w-4xl text-center space-y-6 shadow-lg backdrop-blur-sm">
+    <div class="flex flex-wrap gap-8 justify-center">
+      <div class="flex flex-col items-center">
+        <img src="alipay.png" alt="支付宝二维码" class="w-64 rounded shadow" />
+        <span class="mt-2 text-base text-gray-300">支付宝</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="wechat.png" alt="微信二维码" class="w-64 rounded shadow" />
+        <span class="mt-2 text-base text-gray-300">微信</span>
+      </div>
+    </div>
+
+    <h1 class="text-xl md:text-2xl font-semibold text-yellow-400">赞助满3元以上可以备注是否要上赞助者感谢名单</h1>
+    <p class="text-sm md:text-base text-gray-300">备注好名字，不然会有带*号的名字，最好不要留自己真实姓名</p>
+
+    <a href="https://docs.qq.com/aio/DQW9sTkZncnVieU5O?electronTabTitle=%E9%BE%99%E7%8F%A0super+Wiki&isOfflineNewFileFlag=true&nlc=1&p=w6amojMmgq75LPDNjsIGQx&client_hint=0"
+       target="_blank"
+       class="inline-block w-48 h-12 leading-[3rem] bg-blue-500 hover:bg-blue-600 text-white rounded-full text-lg transition">
+      查看他人赞助
+    </a>
+  </div>
+</body>
+</html>
